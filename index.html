@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Three.js FPS + TPS Viewer</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    html,body { height:100%; margin:0; }
+    canvas { display:block; }
+    #ui {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 20;
+      font-family: Arial, sans-serif;
+      user-select: none;
+    }
+    #ui button { 
+      padding:8px 12px; 
+      margin-right:6px; 
+      cursor:pointer;
+      background: #4fc3f7;
+      color: #1a237e;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    #ui button.active {
+      background: #ff9800;
+      color: white;
+    }
+    #status {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      background: rgba(0,0,0,0.55);
+      color: #fff;
+      padding:6px 8px;
+      font-family: monospace;
+      z-index: 20;
+      border-radius: 4px;
+    }
+    #log {
+      position: absolute;
+      left: 10px;
+      bottom: 10px;
+      width: 360px;
+      max-height: 200px;
+      overflow:auto;
+      background: rgba(0,0,0,0.5);
+      color: #fff;
+      padding:8px;
+      font-family: monospace;
+      font-size:12px;
+      z-index:20;
+      border-radius: 4px;
+    }
+    #instructions {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background: rgba(0,0,0,0.7);
+      color: #fff;
+      padding: 12px;
+      border-radius: 4px;
+      font-family: Arial, sans-serif;
+      max-width: 250px;
+    }
+    #instructions h3 {
+      margin: 0 0 8px 0;
+      color: #ff9800;
+    }
+    #instructions p {
+      margin: 4px 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div id="ui">
+    <button id="fpsBtn">First Person</button>
+    <button id="tpsBtn" class="active">Third Person</button>
+    <button id="scanBtn">Scan Meshes</button>
+  </div>
+
+  <div id="status">Loading...</div>
+  <div id="log"></div>
+
+  <div id="instructions">
+    <h3>Controls</h3>
+    <p>WASD - Move</p>
+    <p>Mouse - Look around</p>
+    <p>L - Toggle lamp</p>
+    <p>Click buttons to switch views</p>
+  </div>
+
+  <script type="module" src="./js/script.js"></script>
+</body>
+</html>
