@@ -62,20 +62,18 @@ bash
 npm start
 This automatically opens your browser to http://localhost:1234 with hot reloading enabled.
 
-blender-modeling/
--├── src/
--│   ├── assets/
--│   │   ├── model2.glb
--│   │   └── red_animator_vs_animation.glb
--│   ├── script.js
--│   └── index.html
--├── package.json
--├── dist/ (auto-generated)
--│   ├── index.html
--│   ├── script.[hash].js
--│   └── assets/
--│       ├── model2.[hash].glb
--│       └── red_animator_vs_animation.[hash].glb
--├── node_modules/ (auto-generated)
--├── .parcel-cache/ (auto-generated)
--└── README.md
+## 📁 Project Structure
+
+**Source Files:**
+- `src/index.html` - Main HTML entry point
+- `src/script.js` - Three.js application with FPS/TPS controls
+- `src/assets/model2.glb` - Blender room model export
+- `src/assets/red_animator_vs_animation.glb` - Animated character model
+
+**Configuration:**
+- `package.json` - Project dependencies and scripts
+
+**Auto-generated:**
+- `dist/` - Production build (`npm run build`)
+- `node_modules/` - Dependencies (`npm install`)
+- `.parcel-cache/` - Parcel build cache
