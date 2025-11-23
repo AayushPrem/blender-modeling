@@ -39,7 +39,7 @@ All 3D assets were modeled from scratch in Blender based on my actual college ro
 
 *Modeled with Blender, brought to life with Three.js*
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js (v14 or higher)
