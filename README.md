@@ -63,19 +63,19 @@ npm start
 This automatically opens your browser to http://localhost:1234 with hot reloading enabled.
 
 blender-modeling/
-├── src/
-│   ├── assets/
-│   │   ├── model2.glb
-│   │   └── red_animator_vs_animation.glb
-│   ├── script.js
-│   └── index.html
-├── package.json
-├── dist/ (auto-generated)
-│   ├── index.html
-│   ├── script.[hash].js
-│   └── assets/
-│       ├── model2.[hash].glb
-│       └── red_animator_vs_animation.[hash].glb
-├── node_modules/ (auto-generated)
-├── .parcel-cache/ (auto-generated)
-└── README.md
+-├── src/
+-│   ├── assets/
+-│   │   ├── model2.glb
+-│   │   └── red_animator_vs_animation.glb
+-│   ├── script.js
+-│   └── index.html
+-├── package.json
+-├── dist/ (auto-generated)
+-│   ├── index.html
+-│   ├── script.[hash].js
+-│   └── assets/
+-│       ├── model2.[hash].glb
+-│       └── red_animator_vs_animation.[hash].glb
+-├── node_modules/ (auto-generated)
+-├── .parcel-cache/ (auto-generated)
+-└── README.md
