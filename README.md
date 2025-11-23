@@ -3,7 +3,7 @@
 
 A real-time 3D recreation of my college room, built with Blender and Three.js. Experience the space in both first-person and third-person perspectives with interactive lighting and smooth navigation.
 
-## 🎮 Features
+## Features
 
 - **First-Person View** - Immersive walkthrough experience
 - **Third-Person View** - Character-based exploration  
@@ -11,20 +11,20 @@ A real-time 3D recreation of my college room, built with Blender and Three.js. E
 - **Real-time Shadows** - Dynamic lighting and shadows
 - **Smooth Controls** - WASD movement with mouse look
 
-## 🛠️ Built With
+## Built With
 
 - **Blender** - 3D modeling, texturing, and lighting
 - **Three.js** - WebGL rendering and interaction
 - **GLB Format** - Optimized asset delivery
 
-## 🎯 Controls
+## Controls
 
 - **WASD** - Move around
 - **Mouse** - Look/orbit camera
 - **L Key** - Toggle lamp on/off
 - **FPS/TPS Buttons** - Switch between views
 
-## 🏗️ Development
+## Development
 
 All 3D assets were modeled from scratch in Blender based on my actual college room, then exported to GLB format for real-time rendering in Three.js. The scene features:
 
