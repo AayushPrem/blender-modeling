@@ -38,3 +38,44 @@ All 3D assets were modeled from scratch in Blender based on my actual college ro
 ---
 
 *Modeled with Blender, brought to life with Three.js*
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm
+
+### Installation & Running
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/AayushPrem/blender-modeling.git
+   cd blender-modeling
+
+   Install dependencies
+
+bash
+npm install
+Start the development server
+
+bash
+npm start
+This automatically opens your browser to http://localhost:1234 with hot reloading enabled.
+
+blender-modeling/
+├── src/
+│   ├── assets/
+│   │   ├── model2.glb
+│   │   └── red_animator_vs_animation.glb
+│   ├── script.js
+│   └── index.html
+├── package.json
+├── dist/ (auto-generated)
+│   ├── index.html
+│   ├── script.[hash].js
+│   └── assets/
+│       ├── model2.[hash].glb
+│       └── red_animator_vs_animation.[hash].glb
+├── node_modules/ (auto-generated)
+├── .parcel-cache/ (auto-generated)
+└── README.md
