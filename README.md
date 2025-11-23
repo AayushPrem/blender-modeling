@@ -15,7 +15,7 @@ A real-time 3D recreation of my college room, built with Blender and Three.js. E
 
 - **Blender** - 3D modeling, texturing, and lighting
 - **Three.js** - WebGL rendering and interaction
-- **GLTF Format** - Optimized asset delivery
+- **GLB Format** - Optimized asset delivery
 
 ## 🎯 Controls
 
@@ -26,7 +26,7 @@ A real-time 3D recreation of my college room, built with Blender and Three.js. E
 
 ## 🏗️ Development
 
-All 3D assets were modeled from scratch in Blender based on my actual college room, then exported to GLTF format for real-time rendering in Three.js. The scene features:
+All 3D assets were modeled from scratch in Blender based on my actual college room, then exported to GLB format for real-time rendering in Three.js. The scene features:
 
 - Accurate room layout and furniture
 - Realistic materials and textures
