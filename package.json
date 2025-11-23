@@ -1,0 +1,13 @@
+{
+  "name": "threejsblender",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel src/index.html --open"
+  },
+  "dependencies": {
+    "three": "^0.181.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
