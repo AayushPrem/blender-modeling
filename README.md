@@ -37,4 +37,4 @@ All 3D assets were modeled from scratch in Blender based on my actual college ro
 
 ---
 
-*Modeled with ❤️ in Blender, brought to life with Three.js*
+*Modeled with Blender, brought to life with Three.js*
